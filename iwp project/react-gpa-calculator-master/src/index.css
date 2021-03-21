@@ -1,0 +1,55 @@
+.wrapper {
+  margin: 50px;
+}
+.wrapper h1 {
+  margin-bottom: 50px;
+}
+.score {
+  padding: 30px;
+}
+
+.score h2 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.score p {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.wrapper .table-striped tbody tr:nth-of-type(odd) {
+  background: #f8f9fa;
+}
+
+.wrapper .table td {
+  border: 1px solid #f8f9fa;
+}
+
+.subject-list i {
+  cursor: pointer;
+}
+.remove{
+  background-color: white;
+  width: 2px;
+}
+#plus{
+  margin-bottom: 50px;
+}
+
+
+@media (max-width: 768px) {
+  .subject-list {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .score p {
+    font-size: 16px;
+  }
+  .score h2 {
+    font-size: 65px;
+  }
+}
